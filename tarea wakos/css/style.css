@@ -1,0 +1,21 @@
+@media all and (min-width: 600px) {
+    /* We tell both sidebars to share a row */
+    
+main{
+    background-color: #e9b6f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div{
+
+    padding: 2px;
+    border: 3px dotted #f7903c;
+    max-width: 1080px;
+    min-width: 500px;
+    max-height: 500px;
+    min-height: 50px;
+    background-color: aquamarine;
+}
+}
