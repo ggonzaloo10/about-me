@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(129, 66, 76);
+}
+
+.linkyoutube 
+{
+    color: red;
+}
+
+.a:visited
+{
+    color: chartreuse;
+}
+a:hover
+{
+    color: yellow;
+}
+
+a:focus
+{
+    border: dotted 5px grey;
+}
+
+.texto
+{
+box-shadow: 0 0 5px 5px rgb(9, 224, 38);
+}
+input:focus
+{
+    border: dotted 3px gray;
+    box-shadow: 0 0 5px 5px yellow;
+}
+
+#check:checked ~ p{
+    color: red;
+}
+p {color: red;}
+span{color: green;}
+.foo{color: greenyellow;}
+.bar .foo{color: blue;}
+p.bar span.foo{ color:yellow}
+.foo .foo #bar{color: chocolate;}
+
