@@ -1,5 +1,3 @@
-@media all and (min-width: 500px) {
-    /* We tell both sidebars to share a row */
  body{
         margin: 0px;
     }
@@ -9,17 +7,19 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
-    border: 0px;
-    margin: 0px;
 }
-
 div{
-margin-top: 10px;
-        border: 3px dotted #f7903c;
-    max-width: 1080px;
-    min-width: 500px;
-    max-height: 500px;
-    min-height: 200px;
+    border: 3px dotted #f7903c;
+    width: 100%;
+    height: 300px;
     background-color: aquamarine;
 }
-}
+@media screen and (min-width: 600px) {
+        div{ width: 50%;
+        }   
+    }
+
+@media screen and (min-width: 1024px) {
+        div{ width: 512px;
+        }   
+    }
