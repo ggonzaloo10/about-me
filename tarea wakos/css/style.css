@@ -1,0 +1,25 @@
+ body{
+        margin: 0px;
+    }
+main{
+    background-color: #e9b6f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+div{
+    border: 3px dotted #f7903c;
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+}
+@media screen and (min-width: 600px) {
+        div{ width: 50%;
+        }   
+    }
+
+@media screen and (min-width: 1024px) {
+        div{ width: 512px;
+        }   
+    }
