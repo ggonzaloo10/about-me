@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%) no-repeat;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.grid__cell-100{
+    flex: calc(100% - 32px);
+    /* padding-left: calc((100%-100px)/2);
+    padding-right: calc((100%-100px)/2); */
+  }
+
+.grid__cell-50{
+    background-color: white;
+    flex:calc(50% - 32px);
+}
+
+.grid__cell-25{
+    background-color: white;
+    flex:calc(25% - 32px);
+    
+}
+
+ [class|="grid__cell"] {
+   margin: 16px;
+    
+}  
+
+@media screen and (max-width:768px) {
+    .grid__cell-50{
+        
+        flex:100%;
+    
+    }
+    .grid__cell-25{
+        flex:50%;
+    
+    }
+    
+}
