@@ -1,0 +1,21 @@
+.container{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.element{
+    border: 3px dotted green;
+    background-color: cyan;
+   flex-grow: 1;
+}
+@media (min-width:50%){
+    .container{
+       flex-direction: row ;
+    }
+    .element{
+        width: 100%;
+    }
+}
