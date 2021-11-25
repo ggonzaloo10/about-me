@@ -1,0 +1,37 @@
+.divtop {
+  width: 100px;
+  height: 70px;
+  background-color: beige;
+}
+
+body {
+  background-color: #94EBE0;
+}
+
+header {
+  width: 200px;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+head {
+  background-image: url("https://wallpaperaccess.com/full/2213424.jpg");
+  background-size: 500px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: solid 5px white;
+  border-radius: 50%;
+  background-image: url("../imagenes/avatar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
