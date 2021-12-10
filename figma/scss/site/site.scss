@@ -1,0 +1,63 @@
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    margin: 10px auto;
+    justify-content: flex-end;
+    >*:nth-child(2){
+    margin-left: auto;
+
+}
+}
+
+body{
+    background-color: #94EBE0;
+}
+
+// header{
+//     width: 100%;
+//     height: 100px;
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: beige;
+// }
+.espacio {
+    width: 80%;
+}
+
+head{
+    background-image: url("https://wallpaperaccess.com/full/2213424.jpg");
+    background-size: 500px;
+    border-radius: 50%;
+    margin: 50px auto;
+
+}
+
+.perfil{
+display: flex;
+align-items: center;
+flex-direction: column;
+font-family: 'Montserrat', sans-serif;
+}
+
+.grid{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 215px;
+    height: 230px;
+    background-color: cadetblue;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
