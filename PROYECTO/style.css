@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+  }
+  
+  body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #04B2D9 50%, #1D3557 100%);
+    background-repeat: no-repeat;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 900px;
+    margin-top: 100px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  
+  .lbl-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    justify-content: space-between;
+
+  } 
+  
+  .lbl-menu label{
+    background-color: #F2A03D;
+    /* border: 5px solid #E4EFF0; */
+    color: white;
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    z-index: 2;
+   }
+  
+  .lbl-menu label:hover{
+    background-color: #f2a03d;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  .content{
+    position: relative;
+  }
+  
+  .content div{
+    position: absolute;
+    margin: 0 auto;
+    top: 180px;
+    line-height: 1.8;
+    transition: all .6s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px;
+    transform: scale(.9);
+    background-color: white;
+  }
+  
+  #radio1, #radio2, #radio3, #radio4{
+    display:none;
+  }
+  
+  #radio1:checked ~ .tab1, 
+  #radio2:checked ~ .tab2,
+  #radio3:checked ~ .tab3, 
+  #radio4:checked ~ .tab4 {
+    opacity: 1;
+    visibility: visible;
+   transform: scale(1);
+   
+  }
+
+  footer {
+    position: absolute;
+width: 100vw;
+height: 100px;
+left: 0px;
+bottom: 0px;
+color: white;
+background: #1D3557;
+}
+  
+.container_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_footer div{
+  margin: 3px auto;
+}
