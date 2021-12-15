@@ -1,0 +1,15 @@
+div.foto {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: solid 4px white;
+    border-radius: 50%;
+    background-image: url(avatar.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
