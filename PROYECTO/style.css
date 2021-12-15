@@ -25,6 +25,7 @@
   body{
     width: 100vw;
     height: 100vh;
+    margin: 0 0 0 0;
     background-image: linear-gradient(180deg, #04B2D9 50%, #1D3557 100%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +64,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
   } 
+  .lbl-menu--icono:hover{
+    transform: scale(1.1);
+    color: white;
+  }
+
   
   @media screen and (max-width: 560px) {
     .lbl-menu {
@@ -75,6 +83,7 @@
       transform: scale(0.9);
     }
   }
+
 
   .lbl-menu label{
     background-color: #F2A03D;
@@ -140,13 +149,16 @@ bottom: 0px;
 color: #A8DADC;
 background: #1D3557;
 font-size: small;
+
 }
   
 .container_footer{
+  height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   align-items: center;
+  justify-items: center;
 }
 
 .container_footer div{
