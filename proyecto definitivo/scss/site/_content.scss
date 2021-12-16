@@ -1,0 +1,31 @@
+.content{
+    width: 700px;
+    height: 400px;
+  }
+  
+  .content div{
+    position: absolute;
+    margin: 0 auto;
+    width:  900px;
+    line-height: 1.8;
+    transition: all .6s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px;
+    transform: scale(.9);
+    background-color: $azul-claro;
+  }
+  
+  #radio1, #radio2, #radio3, #radio4{
+    display:none;
+  }
+  
+  #radio1:checked ~ .tab1, 
+  #radio2:checked ~ .tab2,
+  #radio3:checked ~ .tab3, 
+  #radio4:checked ~ .tab4 {
+    opacity: 1;
+    visibility: visible;
+   transform: scale(1);
+   
+  }

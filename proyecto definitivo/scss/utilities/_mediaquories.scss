@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    .lbl-menu {
+      display: flex;
+    flex-direction: column;
+    
+    } 
+  
+    .lbl-menu--icono{
+      transform: scale(0.7);
+    }
+  
+  }

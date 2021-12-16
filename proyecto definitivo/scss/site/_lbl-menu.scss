@@ -1,0 +1,48 @@
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lbl-menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    justify-content: space-between;
+  } 
+
+  .lbl-menu--icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+  } 
+
+  .lbl-menu--icono:hover{
+    transform: scale(1.1);
+    color: $blanco;
+  }
+
+  .lbl-menu label{
+    background-color: $amarillo;
+    /* border: 5px solid #E4EFF0; */
+    color: $blanco;
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    z-index: 2;
+   }
+  
+   .lbl-menu label:hover{
+    background-color: $blanco;
+    color: black;
+    transform: scale(1.1);
+  
+  }

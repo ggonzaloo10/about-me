@@ -1,0 +1,25 @@
+footer {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    padding: 0 auto;
+    left: 0px;
+    bottom: 0px;
+    color: $azul-claro;
+    background: $azul-marino;
+    font-size: small;
+    
+    }
+      
+    .container_footer{
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+    
+      align-items: center;
+      justify-items: center;
+    }
+    
+    .container_footer div{
+      margin: 3px auto;
+    }
