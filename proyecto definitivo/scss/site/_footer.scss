@@ -17,9 +17,11 @@ footer {
       flex-direction: row;
     
       align-items: center;
-      justify-items: center;
+      justify-content: space-between;
     }
     
     .container_footer div{
-      margin: 3px auto;
+      margin: 10px 10px;
+      min-width: 190px;
+      
     }

@@ -7,8 +7,9 @@ label{
   .lbl-menu{
     display: flex;
     flex-wrap: wrap;
-    width: 560px;
+    justify-self: center;
     justify-content: space-between;
+    // margin: 20 auto;
   } 
 
   .lbl-menu--icono{

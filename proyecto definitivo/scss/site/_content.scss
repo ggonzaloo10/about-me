@@ -5,9 +5,10 @@
   
   .content div{
     position: absolute;
-    margin: 0 auto;
+    margin: 0 0 0 0;
     width:  900px;
     line-height: 1.8;
+    border-radius: 20px;
     transition: all .6s ease-in-out;
     opacity: 0;
     visibility: hidden;
