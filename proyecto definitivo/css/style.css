@@ -162,7 +162,8 @@ label {
   padding: 20px;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  background-color: #A8DADC;
+  background-color: white;
+  color: #1D3557;
 }
 
 #radio1, #radio2, #radio3, #radio4 {
@@ -250,6 +251,9 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .lbl-menu--icono {
