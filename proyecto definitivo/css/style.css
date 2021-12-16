@@ -7,6 +7,11 @@ html {
   font-size: 100%;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -38,7 +43,7 @@ header {
   background: #1D3557;
 }
 
-.container_header {
+.div_header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,8 +59,7 @@ header {
 }
 
 .container {
-  width: 100%;
-  max-width: 900px;
+  max-width: 1024px;
   margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,9 +68,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 label {
@@ -87,7 +91,8 @@ label {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 560px;
+  -ms-grid-column-align: center;
+      justify-self: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -146,9 +151,10 @@ label {
 
 .content div {
   position: absolute;
-  margin: 0 auto;
+  margin: 0 0 0 0;
   width: 900px;
   line-height: 1.8;
+  border-radius: 20px;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   opacity: 0;
@@ -197,11 +203,14 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container_footer div {
-  margin: 3px auto;
+  margin: 10px 10px;
+  min-width: 190px;
 }
 
 .grid {
